@@ -221,7 +221,7 @@ def decode(number):
   
   
 if __name__ == '__main__':
-  test_string1 = '0=0'
+  test_string1 = '0=0' #243000000 , 64*243*15625
   test_string2 = '(∃pPx)(x=sy)'
 
   encoded_test_string1 = encode(test_string1)
